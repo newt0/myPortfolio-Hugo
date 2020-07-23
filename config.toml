@@ -3,7 +3,7 @@ baseURL = "https://examplesite.com"
 title = "Somrat | Hugo Portfolio Template"
 theme = "somrat"
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = ["Fr", "En"] # desable language from here
 
 ############################# Plugins ##############################
 
@@ -116,13 +116,22 @@ link = "https://github.com/Somrat37"
 icon = "fa-linkedin" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
 link = "https://www.linkedin.com/in/somrat-sorkar-872581158/"
 
+################################### Japanese language #####################################
+[Languages.ja]
+languageName = "Ja"
+languageCode = "ja-jp"
+contentDir = "content/japanese"
+weight = 1
+home = "Home"
+# copyright
+copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
 
 ################################### English language #####################################
 [Languages.en]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
 home = "Home"
 # copyright
 copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
@@ -133,7 +142,7 @@ copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netli
 languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
-weight = 2
+weight = 3
 home = "Accueil"
 # copyright
 copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
