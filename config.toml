@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://kyohei-works.com"
+baseURL = "https://kyohei-works.netlify.app/"
 title = "Kyohei | ポートフォリオ"
 theme = "somrat"
 # disable language
