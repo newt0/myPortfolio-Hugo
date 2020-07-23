@@ -25,8 +25,8 @@ hero:
 fullscreen_nav:
   enable : true
   bg_image : "images/backgrounds/full-nav-bg.jpg"
-  first_name : "MacGyver"
-  last_name : "SOMRAT"
+  first_name : "Web Developer"
+  last_name : "Kyohei"
   
 
 ########################### About ##################################
@@ -34,7 +34,7 @@ about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "KNOW MORE <br> ABOUT ME"
-  content : "早大在学中に東大AIスタートアップAidemyにて事業開発部リーダー職を務め、月間最高売り上げを達成。株式会社ラグナロクにてフォトコンテストアプリ「Camecon」のフロントエンド開発を担当。2020年にフリーランスエンジニアとして独立。"
+  content : "早大在学中に東大AIスタートアップAidemyにて事業開発部リーダー職を務め、月間売り上げ1000万円増を達成。株式会社ラグナロクにてフォトコンテストアプリ「Camecon」のフロントエンド開発を担当。2020年にフリーランスエンジニアとして独立。"
   # button
   button:
     enable : false
@@ -267,17 +267,17 @@ funfacts:
     # funfacts item loop
     - name : "HANDS TO WORK"
       image : "images/icons/works.png"
-      count : "100"
+      count : "35"
       
     # funfacts item loop
     - name : "HAPPY CLIENT"
       image : "images/icons/happy.png"
-      count : "200"
+      count : "20"
       
     # funfacts item loop
     - name : "FINISHED PROJECT"
       image : "images/icons/project.png"
-      count : "250"
+      count : "10"
       
     # funfacts item loop
     # - name : "CUPS OF COFFEE"
@@ -287,5 +287,5 @@ funfacts:
 
 ############################## contact ###########################
 contact:
-  enable : false
+  enable : true
   title : "SAY HELLO!"
