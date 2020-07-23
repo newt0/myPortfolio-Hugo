@@ -1,12 +1,12 @@
 ########################## hero area ##########################
 hero:
-  title : "I'm Somrat Sorkar"
+  title : "I'm Kyohei"
 
   # animated text loop
   occupations:
     - "Web Developer"
-    - "Graphic Designer"
-    - "Database Manager"
+    - "Digital Marketer"
+    - "Sales Manager"
 
   # slider background image loop
   slider_image:
@@ -34,10 +34,10 @@ about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "KNOW MORE <br> ABOUT ME"
-  content : "It's Somrat, Professional Web Developer. I love to write code, it's my passoin. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me............😊"
+  content : "早大在学中に東大AIスタートアップAidemyにて事業開発部リーダー職を務め、月間最高売り上げを達成。株式会社ラグナロクにてフォトコンテストアプリ「Camecon」のフロントエンド開発を担当。2020年にフリーランスエンジニアとして独立。"
   # button
   button:
-    enable : true
+    enable : false
     label : "DOWNLOAD MY CV"
     link : "#" # you can put your cv in static folder and give the path here.
 
@@ -48,21 +48,22 @@ experience:
   experience_list:
     # experience item loop
     - name : "Web Developer"
-      company : "Fiverr.com"
-      duration : "2016-2018"
-      content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
+      company : "株式会社ラグナロク"
+      duration : "2019-2020"
+      content : "nanapiやコインチェック等出身のエンジニア・デザイナーで構成されており、極少人数での高速開発・リリースに強みを持っています。
+B2B事業「MVP Now(最短2週間でのMVP納品)」や、自社サービスの開発(主にB2CのSNS)を行なっています。"
       
     # experience item loop
-    - name : "Graphic Designer"
-      company : "Fiverr.com"
-      duration : "2015-2018"
-      content : "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
-      
+    - name : "Member"
+      company : "Kernel Hongo"
+      duration : "2019-Now"
+      content : "東大松尾研やSoftbank, Deep Core(VC)等によるAIインキュベーター施設。メンバー審査に合格。"
+
     # experience item loop
-    - name : "Database Manager"
-      company : "Polytechnic"
-      duration : "2014-2018"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
+    - name : "Leader/Bussiness Developement"
+      company : "Aidemy Inc."
+      duration : "2019"
+      content : "東大発AIスタートアップです。ProgateのAI特化版のような学習プラットフォーム「Aidemy」を運営しており、そこで集めたユーザー数を参入障壁として、B2C事業「Aidemy Premium Plan(高単価プログラミングスクール）」・B2B事業「Aidemy Business(AI導入・内製化のコンサルティング)」で収益化しています。"
 
 
 ############################### Skill #################################
@@ -71,20 +72,28 @@ skill:
   title : "SKILL"
   skill_list:
     # skill item loop
-    - name : "Web Development"
+    - name : "Vue.js/Nuxt.js"
       parcentage : "98%"
       
     # skill item loop
-    - name : "Graphic Design"
+    - name : "React.js/Gatsby.js"
       parcentage : "85%"
       
     # skill item loop
-    - name : "Database Management"
+    - name : "Golang/Hugo"
       parcentage : "90%"
       
     # skill item loop
     - name : "Wordpress"
       parcentage : "70%"
+
+    # skill item loop
+    - name : "HTML5/CSS3/JavaScript(ES6)"
+      parcentage : "100%"
+
+    # skill item loop
+    - name : "Python/Machine Learning"
+      parcentage : "65%"
 
 
 ################################### Service ##############################3
@@ -93,29 +102,29 @@ service:
   title : "SERVICES"
   service_list:
     # service item loop
-    - name : "Web Development"
+    - name : "Web開発"
       image : "images/icons/web-development.png"
       
     # service item loop
-    - name : "Graphic Design"
-      image : "images/icons/graphic-design.png"
-      
-    # service item loop
-    - name : "Database Management"
+    - name : "LP制作"
       image : "images/icons/dbms.png"
       
     # service item loop
-    - name : "Software Development"
+    - name : "メディア構築"
       image : "images/icons/software-development.png"
       
     # service item loop
-    - name : "Digital Marketing"
+    - name : "デジタルマーケティング"
       image : "images/icons/marketing.png"
       
     # service item loop
-    - name : "Mobile App Development"
+    - name : "スマートフォンアプリ開発"
       image : "images/icons/mobile-app.png"
 
+    # service item loop
+    - name : "グラフィック・デザイン"
+      image : "images/icons/graphic-design.png"
+      
 
 ############################## call to action #########################
 call_to_action:
@@ -130,11 +139,11 @@ call_to_action:
 
 ############################# portfolio ################################
 portfolio:
-  enable : true
+  enable : false
   title : "PORTFOLIO"
   portfolio_list:
     # portfolio item loop
-    - name : "Project <br> Title"
+    - name : "Camecon"
       image : "images/portfolio/item1.jpg"
       date : "Feb 2018"
       category : "Web Development"
@@ -226,7 +235,7 @@ portfolio:
 
 ################################# Testimonial #########################33
 testimonial:
-  enable : true
+  enable : false
   title : "TESTIMONIALS"
   testimonial_slider:
     # slider item loop
@@ -271,12 +280,12 @@ funfacts:
       count : "250"
       
     # funfacts item loop
-    - name : "CUPS OF COFFEE"
-      image : "images/icons/coffee.png"
-      count : "150"
+    # - name : "CUPS OF COFFEE"
+    #   image : "images/icons/coffee.png"
+    #   count : "150"
 
 
 ############################## contact ###########################
 contact:
-  enable : true
+  enable : false
   title : "SAY HELLO!"
